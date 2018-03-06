@@ -1,10 +1,10 @@
 # VueLocalStorage
-[![CircleCI status](https://circleci.com/gh/pinguinjkeke/vue-local-storage/tree/master.svg?style=shield)](https://circleci.com/gh/pinguinjkeke/vue-local-storage/tree/master.svg?style=shield)
-[![npm version](https://img.shields.io/npm/v/vue-localstorage.svg)](https://www.npmjs.com/package/vue-localstorage)
-[![npm downloads](https://img.shields.io/npm/dt/vue-localstorage.svg)](https://www.npmjs.com/package/vue-localstorage)
+[![npm version](https://img.shields.io/npm/v/vue-localstorageie11.svg)](https://www.npmjs.com/package/vue-localstorageie11)
+[![npm downloads](https://img.shields.io/npm/dt/vue-localstorageie11.svg)](https://www.npmjs.com/package/vue-localstorageie11)
 
 LocalStorage plugin inspired by Vue typed props which take a care of typecasting for Vue.js 1 and 2 with SSR support.
 
+Oryginal package https://www.npmjs.com/package/vue-localstorage with fixed IE11 missing [].includes() method
 ## Install
 
   ``` bash
