@@ -1,7 +1,7 @@
 {
   "name": "vue-localstorageie11",
   "description": "Vue.js localStorage plugin with types support and IE11 compatible",
-  "version": "0.6.5",
+  "version": "0.6.6",
   "author": {
     "name": "Alexander Avakov",
     "email": "yaavakov@gmail.com"

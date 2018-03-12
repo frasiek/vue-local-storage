@@ -1,6 +1,6 @@
 /**
- * vue-local-storage v0.6.0
- * (c) 2017 Alexander Avakov
+ * vue-local-storage v0.6.5
+ * (c) 2018 Alexander Avakov
  * @license MIT
  */
 (function (global, factory) {
@@ -56,7 +56,8 @@ VueLocalStorage.prototype._getLsKey = function _getLsKey (lsKey) {
  */
 VueLocalStorage.prototype._lsSet = function _lsSet (lsKey, rawValue, type) {
   var key = this._getLsKey(lsKey);
-  var value = type && [Array, Object].includes(type)
+  var jsonTypes = [Array, Object];
+  var value = type && (jsonTypes.includes ? jsonTypes.includes(type) : (jsonTypes.indexOf(type) !== -1))
     ? JSON.stringify(rawValue)
     : rawValue;
 
