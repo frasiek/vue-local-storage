@@ -48,7 +48,7 @@ class VueLocalStorage {
   _lsSet (lsKey, rawValue, type) {
     const key = this._getLsKey(lsKey)
     const jsonTypes = [Array, Object]
-    const value = type && (jsonTypes.includes ? jsonTypes.includes(type) : (jsonTypes.indexOf(type) != -1))
+    const value = type && (jsonTypes.includes ? jsonTypes.includes(type) : (jsonTypes.indexOf(type) !== -1))
       ? JSON.stringify(rawValue)
       : rawValue
 
